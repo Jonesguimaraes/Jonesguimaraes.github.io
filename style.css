@@ -27,13 +27,13 @@
          font-size: 17px;
          }
          .bg-wave{
-         background: #ededed url("imgs/wave-bg.png") no-repeat center bottom;
+         background: #ededed url("img/wave-bg.png") no-repeat center bottom;
          background-size: cover;
          margin: 0px;
          padding: 0px;
          }
          .bg-noise{
-         background: url("imgs/noize-bg.png") repeat;
+         background: url("img/noize-bg.png") repeat;
          margin: 0px;
          padding: 0px;
          }

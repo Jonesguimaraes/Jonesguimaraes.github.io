@@ -1,0 +1,119 @@
+.bg-blue-top{
+         background-color: #384b7c;
+         padding: 20px;
+         }
+         .bg-yellow-top {
+         background-color: #fbcd49;
+         padding: 20px;
+         color:  #33518f;
+         }
+         body {
+         font-family: "Roboto", sans-serif;
+         color: #ffffff;
+         }
+         h1 {
+         font-size: 36px;
+         text-align: center;
+         }
+         h2 {
+         font-size: 18px;
+         text-align: center;
+         }
+         h3 {
+         font-size: 21px;
+         font-weight: 600;
+         }
+         p {
+         font-size: 17px;
+         }
+         .bg-wave{
+         background: #ededed url("imgs/wave-bg.png") no-repeat center bottom;
+         background-size: cover;
+         margin: 0px;
+         padding: 0px;
+         }
+         .bg-noise{
+         background: url("imgs/noize-bg.png") repeat;
+         margin: 0px;
+         padding: 0px;
+         }
+         .container {
+         max-width: 900px;
+         }
+         li {
+         padding-bottom: 10px;
+         }
+         .lead-capture {
+         margin-top: 90px;
+         background-color: #f7f8f9;
+         color: #4e4d4d;
+         padding: 0px;
+         overflow: hidden;
+         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+         max-width: 310px;
+         height: 100%;
+         margin-bottom: 50px;
+         }
+         .lead-header {
+         background-color: #fbcd49;
+         color: #000000;
+         width: 100%;
+         padding: 20px 10px 10px 10px;
+         color: #131d3c;
+         }
+         .lead-header p{
+         font-size: 11px;
+         font-weight: 700;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+         }
+         .bt-form-lead {
+         font-weight: 700;
+         margin: 40px 0 10px 0;
+         padding: 15px 0;
+         background-color: #2f3463;
+         border: none;
+         cursor: pointer;
+         }
+         label {
+         color: #4e4d4d;
+         font-size: 15px;
+         margin-bottom: 0px;
+         }
+         .form-politica p{
+         text-align: center;
+         font-size: 10px;
+         font-weight: 300;
+         }
+          .form-politica a{
+         color: #777777;
+         }
+          .help-block {
+              font-size: 11px;
+    font-style: italic;
+          }
+          .has-error .form-control {
+              border: 1px solid #ff0000;
+          }
+          .has-error .help-block {
+              color: #ff0000;
+          }
+          .has-error .fa {
+              color: #ff0000;
+          }
+          .has-feedback .fa{
+              margin: -27px 0;
+              position: absolute;
+              right: 25px;
+          }
+         @media (max-width: 576px) {   
+         h1 {
+         font-size: 26px !important;
+         } 
+         .bg-wave{
+         background: #305393;
+         background-image: none;
+         }
+         }
+          

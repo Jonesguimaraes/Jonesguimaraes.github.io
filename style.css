@@ -8,11 +8,11 @@
          color:  #33518f;
          }
          body {
-         font-family: "Roboto", sans-serif;
+        font-family: 'Open Sans', sans-serif;
          color: #ffffff;
          }
          h1 {
-         font-size: 36px;
+         font-size: 35px;
          text-align: center;
          }
          h2 {
@@ -20,25 +20,29 @@
          text-align: center;
          }
          h3 {
-         font-size: 21px;
+         font-size: 20px;
          font-weight: 600;
          }
          p {
          font-size: 17px;
          }
+         strong{
+                    font-family: 'Open Sans:700', sans-serif";"!important
+
+         }
          .bg-wave{
-         background: #ededed url("img/wave-bg.png") no-repeat center bottom;
-         background-size: cover;
-         margin: 0px;
-         padding: 0px;
+           background-color: #ededed;
+           background-image: -webkit-linear-gradient(100deg, #434d77 70%, #ededed 35%);
+            min-height: 500px;
+         
          }
          .bg-noise{
-         background: url("img/noize-bg.png") repeat;
+         background: url("imgs/noize-bg.png") repeat;
          margin: 0px;
          padding: 0px;
          }
          .container {
-         max-width: 900px;
+         max-width: 990px;
          }
          li {
          padding-bottom: 10px;
@@ -62,7 +66,7 @@
          color: #131d3c;
          }
          .lead-header p{
-         font-size: 11px;
+         font-size: 12px;
          font-weight: 700;
          margin: 0;
          padding: 0;
